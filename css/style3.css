@@ -167,7 +167,8 @@ border-radius: 30px;
 .title-section {
     font-weight: bold;
     font-size: 26px;
-    padding-left: 700px;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 .title-special {
     margin-right: 20%;
