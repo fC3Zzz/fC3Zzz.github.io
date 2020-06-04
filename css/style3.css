@@ -172,7 +172,7 @@ border-radius: 30px;
 }
 .title-special {
     margin-right: 20%;
-}
+} 
 
 .special-content {
     display: flex;
@@ -211,7 +211,7 @@ border-radius: 30px;
     margin-right: 100px;
 }
 
-.gallery{
+/* .gallery{
     display: grid;
     grid-template-columns: 20% 20% 20%;
  grid-template-rows: 50% 50%;   
@@ -226,7 +226,7 @@ border-radius: 30px;
     display: flex;
 }
 
-.black-cube{
+/* .black-cube{
     width: 100px;
     height: 100px;
     background: black;
@@ -235,7 +235,7 @@ border-radius: 30px;
 
 -webkit-animation: shake .10s linear alternate infinite;
 animation: shake .10s linear alternate infinite;
-}
+} */ 
 
 
 @-webkit-keyframes shake {

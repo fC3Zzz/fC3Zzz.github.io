@@ -16,14 +16,15 @@
                 <li class="menu-item"><a href="http://steamcommunity.com/id/FCez">Обо мне</a></li>
                 <li class="menu-item"><a href="https://steamcommunity.com/id/FCez/games/?tab=all">Навыки</a></li>
                 <li class="menu-item"><a href="https://steamcommunity.com/id/FCez/stats/CSGO/?tab=achievements">Проекты</a></li>
-                <li class="menu-item"><a href="steam2.html">Контакты</a></li>
+                <li class="menu-item"><a href="inner/steam2.html">Контакты</a></li>
             </ul>
         </nav>
         <div class="welcome-block">
         
         <div class="little-title little-title-header">Frontend</div>
         <div class="big-title big-title-header">web development</div>
-        <button type="button" class="btn btn-header" name="button">Мои проекты</Button>
+        <button type="button" class="btn btn-header"  name="button">Мои проекты</Button>
+
         
         </div>
     </div>
@@ -75,8 +76,16 @@
         <div class="container">
     <div class="special-title-block">
          <div class="title-section  title-special">Наши работы, на которых<br> мы специализируемcя </div>
-           <button type="button" class="btn" name="Button">Все услуги</button></div>
-             <div class="special-content">
+           <button type="button" class="btn" onclick="registration()" name="Button">Все услуги</button>
+            <form onsubmit="accept(document.getElementsById('txt').value)">
+           <input type="text" id="txt">
+             <input type="submit" onclick="accept()">
+            </form> 
+        </div>
+           
+           
+           <div class="special-content">
+
 
 
             <div class="box explore-box">
@@ -107,31 +116,41 @@
 
 
 
-             </div>
+             
 
 
 
     </div>
     </section>
+    <script src="js/main.js"></script>
+
+
+
+
+
+
+    <section class="gallery">
+        <div class="gallery-item"><img src="img/Без названия.jpeg" alt="csgod"csgod></div>
+        <div class="gallery-item"><img src="img/Без названия.jpeg" alt="csgod"></div>
+        <div class="gallery-item"><img src="img/Без названия.jpeg" alt="csgod"></div>
+        <div class="gallery-item"><img src="img/Без названия.jpeg" alt="csgod"></div>
+        <div class="gallery-item"><img src="img/Без названия.jpeg" alt="csgod"></div>
+        <div class="gallery-item"><img src="img/Без названия.jpeg" alt="csgod"></div>
+        </section>
+        
+        <div class="anima">
+            <div class="black-cube"></div>
+            <div class="black-cube"></div>
+            <div class="black-cube"></div>
+            <div class="black-cube"></div>
+            <div class="black-cube"></div>
+        </div>
+
+    
 </body>
 </html>
 
-<section class="gallery">
-<div class="gallery-item"><img src="img/Без названия.jpeg" alt="csgod"csgod></div>
-<div class="gallery-item"><img src="img/Без названия.jpeg" alt="csgod"></div>
-<div class="gallery-item"><img src="img/Без названия.jpeg" alt="csgod"></div>
-<div class="gallery-item"><img src="img/Без названия.jpeg" alt="csgod"></div>
-<div class="gallery-item"><img src="img/Без названия.jpeg" alt="csgod"></div>
-<div class="gallery-item"><img src="img/Без названия.jpeg" alt="csgod"></div>
-</section>
 
-<div class="anima">
-    <div class="black-cube"></div>
-    <div class="black-cube"></div>
-    <div class="black-cube"></div>
-    <div class="black-cube"></div>
-    <div class="black-cube"></div>
-</div>
 
 
 
